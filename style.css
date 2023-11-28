@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh; /* 100% of the viewport height */
+}
+
+.header {
+    background-color: rgb(79, 79, 236);
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.aside {
+    width: 15%;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+}
+
+.forecast {
+width: 100vh;
+    background-color: #e0e0e0;
+    padding: 20px;
+}
+
+.day {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Add other styles as needed */
