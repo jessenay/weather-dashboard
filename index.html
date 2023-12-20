@@ -17,23 +17,26 @@
         <aside class="aside">
             <h2>Search for a city</h2>
             <input type="text" id="citySearch" />
-            <button class="search"> Search</button>
+            <button class="search">Search</button>
+            <h3 class="recentCities">Recently Searched Cities</h3>
+            <div id="previousCitiesList"></div>
         </aside>
         <div class="cityContainer">
+            <div class="todaysForecast">
+                <h2>Todays Forecast</h2>
+            </div>
             <main class="main">
-                <h2>Current Weather</h2>
-                <div>Temp Degree Symbol °</div>
-                <div>Wind MPH</div>
-                <div>Humidity %</div>
+                <div id="weatherInfo">
+                    <h2 id="cityName"></h2>
+                    <h3 id="currentDate"></h3>
+                    <div id="currentWeather"></div>
+                </div>
             </main>
 
             <section class="forecast">
                 <h2>5-Day Forecast</h2>
-                <div class="day">Day 1</div>
-                <div class="day">Day 2</div>
-                <div class="day">Day 3</div>
-                <div class="day">Day 4</div>
-                <div class="day">Day 5</div>
+                <div id="forecastDates"></div>
+                <section class="days"></section>
             </section>
         </div>
     </div>
